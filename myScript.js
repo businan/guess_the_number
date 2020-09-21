@@ -3,7 +3,7 @@ let numberOfGuesses = 0;
 
 function loadNumber() {
     myNumber = Math.floor(Math.random() * 100) + 1;
-    // alert(myNumber)
+    //alert(myNumber)
 }
 
 function check() {
@@ -16,7 +16,7 @@ function check() {
         //document.getElementById("rabbit").style.visibility = "visible";
         setTimeout(function() {
             alert("You are the winner ! You guest after " + numberOfGuesses + " times!");
-        },20);
+        },80);
         
         setTimeout(function() {
             if (confirm("You wanna play again?")) {
@@ -24,7 +24,7 @@ function check() {
             } else {
                 window.close();
             }
-        },30)
+        },100)
         
         
 
