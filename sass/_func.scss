@@ -1,0 +1,26 @@
+@mixin myBackGround($imgpath,$position:center,$repeat: no-repeat,$cover:cover,$fixed:fixed) {
+    background: {
+        image: url($imgpath);
+        position: $position;
+        repeat: $repeat;
+        size: $cover;
+        attachment: $fixed;
+        
+        
+    }
+}
+
+// background: url("https://i.etsystatic.com/7205570/r/il/d2d75a/502555328/il_570xN.502555328_9tbg.jpg"),
+//     rgba(0, 0, 0, 0.5);
+//   /* ,url("https://picsum.photos/800/600?random=2"); */
+//   background-size: cover;
+//   background-blend-mode: multiply;
+//   box-sizing: border-box;
+// background: url("./image/bg01.png");
+    
+    
+    // background-position: center; 
+    // background-repeat: no-repeat; 
+    // background-size: cover;
+    //background-blend-mode: multiply;
+    

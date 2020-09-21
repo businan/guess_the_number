@@ -3,16 +3,27 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>How many fingers</title>
-    <script type="text/javascript" src="myScript.js"> </script>
+    <title>Find a Number</title>
+    
+    <link rel="stylesheet" href="style.css">
 </head>
 
-<body>
-    <h1>Test your luck</h1>
-    <h2>How many fingers do I have?<h2>
-    <input type="text" id="myGuess">
-    <button id="button" onclick="check()">submit</button>
-    <p id="reaction"></p>
-    <p id="guessCount"></p>
+<body id="container">
+    <div class="main">
+        <h1>Find The Number (beetwen 0 and 100):</h1>
+        <div class="container">
+            <input type="text" id="myGuess">
+            <button id="button" onclick="check();"> Check </button>
+        </div>
+        <h3 id="reaction"></h3>
+        <p id="guessCount"></p>
+
+    </div>
+    <!-- <div class="image-container">
+        <img src="./image/rabbit.jpg" alt="rabbit" id="rabbit">
+    </div> -->
+    
+    <script type="text/javascript" src="myScript.js"> </script>
 </body>
+
 </html>
